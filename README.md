@@ -1,4 +1,4 @@
-## 🤖 AI Chatbot (V1 → V4)
+# 🤖 AI Chatbot (V1 → V4)
 
 A Python-based chatbot project showing progression from basic rule-based logic to an AI-powered assistant using OpenAI API.
 
@@ -19,7 +19,16 @@ A Python-based chatbot project showing progression from basic rule-based logic t
 ---
 
 ## 📂 Project Structure
-ai-chatbot/ │── chatbot_v1.py │── chatbot_v2.py │── chatbot_v3.py │── chatbot_v4.py │── requirements.txt │── README.md
+```
+ai-chatbot/
+│── chatbot_v1.py
+│── chatbot_v2.py
+│── chatbot_v3.py
+│── chatbot_v4.py
+│── requirements.txt
+│── README.md
+```
+
 ---
 
 ## ⚙️ Installation
@@ -27,3 +36,29 @@ ai-chatbot/ │── chatbot_v1.py │── chatbot_v2.py │── chatbot_v3
 git clone https://github.com/imrizxyz/ai-chatbot.git
 cd ai-chatbot
 pip install -r requirements.txt
+```
+
+---
+
+## 🔑 Setup API Key
+```python
+client = OpenAI(api_key="YOUR_API_KEY")
+```
+
+---
+
+## ▶️ Run
+```bash
+python chatbot_v4.py
+```
+
+---
+
+## 🎯 Goal
+To learn chatbot development from basic logic to real-world AI systems.
+
+---
+
+## 👨‍💻 Author
+Rahul Rawat  
+https://github.com/imrizxyz
